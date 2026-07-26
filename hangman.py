@@ -16,7 +16,7 @@ incorrect_guesses = 0
 max_attempts = 6
 
 print("=" * 40)
-print("       WELCOME TO HANGMAN")
+print("        WELCOME TO HANGMAN")
 print("=" * 40)
 
 while True:
