@@ -43,7 +43,7 @@ while True:
 
     # Validate input
     if len(guess) != 1 or not guess.isalpha():
-        print("Please enter only one alphabet letter.")
+        print("Please enter only one  alphabet letter.")
         continue
 
     if guess in guessed_letters:
