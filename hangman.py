@@ -16,7 +16,7 @@ incorrect_guesses = 0
 max_attempts = 6
 
 print("=" * 40)
-print("        WELCOME TO HANGMAN WORLD")
+print("       WELCOME TO HANGMAN WORLD")
 print("=" * 40)
 
 while True:
@@ -33,7 +33,7 @@ while True:
 
     # Check if player has guessed the word
     if "_" not in display_word:
-        print("\n🎉 Congratulations! You guessed the word:", word)
+        print("\n🎉 Congratulations! You guessed the word🌙:", word)
         break
 
     print(f"Attempts Left: {max_attempts - incorrect_guesses}")
